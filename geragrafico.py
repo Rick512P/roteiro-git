@@ -14,7 +14,8 @@ def main():
     plt.xlabel('Amostragem')
     for serie in valores:
         plt.plot(serie)
-
+    
+    plt.plot(valores)
     plt.show()
 
 main()
